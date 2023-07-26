@@ -1,0 +1,17 @@
+{
+  "name": "icro_industry_script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cc-gapi-lite": "git+ssh://git@git.convertcart.com/ccart/cc-gapi-lite.git#v8.3.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.4",
+    "nanoid": "^2.1.10"
+  },
+  "devDependencies": {
+    "@types/nanoid": "^2.1.0"
+  }
+}
