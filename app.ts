@@ -36,6 +36,16 @@ async function performOperation(domainId: string, campaignId: string) {
   console.log(contacts);
 }
 
+function findSecondLowestAndGreatest(arr) {
+  // Sort the array in ascending order
+  arr.sort(function (a, b) {
+    return a - b;
+  });
+
+  // Return the second lowest and second greatest numbers
+  return [arr[1], arr[arr.length - 2]];
+}
+
 // check if any argument has been passed related to domainId:
 if (process.argv.length > 0) {
   let domainId: string = "";
